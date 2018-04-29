@@ -1,7 +1,18 @@
+### 导入依赖
+
+```
+
+
+compile 'cn.qssq666:hollowoutview:0.1'
+```
+
 ### 修改半透明蒙版颜色
 直接拿到view然后getPaint()设置颜色即可。
 ### 自定义更多透明镂空区域形状
 实现下面的接口就可以实现了
+
+
+```
 ```java
 
 public interface HollowedOutShapeInfoI
@@ -9,7 +20,7 @@ public interface HollowedOutShapeInfoI
 
 
 ```
-#### 使用方法
+### 使用方法
 
 ```java
 
@@ -23,3 +34,4 @@ public interface HollowedOutShapeInfoI
         hollowOutView.applyChanage();
 
 ```
+
